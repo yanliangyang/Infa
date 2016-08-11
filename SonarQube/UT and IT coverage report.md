@@ -17,8 +17,8 @@ sonar.jacoco.itReportPath=target/coverage-reports/jacoco-it.exec
 </code></pre>
 
 ###### *3、if u want know what the Parameters mean, pls see* [Analysis+Parameters](http://docs.sonarqube.org/display/SONAR/Analysis+Parameters "Analysis+Parameters").
-`sonar.jacoco.reportPath`:Set the property to the path of the JaCoCo UT coverage report.
-`sonar.jacoco.itReportPath`:The path to the pre-generated JaCoCo IT coverage report.
+######`sonar.jacoco.reportPath`:The property to the path of the JaCoCo UT coverage report.
+######`sonar.jacoco.itReportPath`:The path to the pre-generated JaCoCo IT coverage report.
 
 ##### **Result:**
 ###### 1、It will show the UT and IT Coverage Report on Sonarqube
