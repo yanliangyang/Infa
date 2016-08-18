@@ -30,15 +30,6 @@ ec85fb86992a4702bcc7f5234f44cb29
 netstat  -apn | grep 8080
 
 
-jenkins: http://113.200.115.170:4093/
-
-nexus: http://113.200.115.170:4096/nexus/#view-repositories
-
-gerrit: http://113.200.115.170:4095/#/dashboard/self
-
-
-
-
 iptables -L -t nat
 
 iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 29418 -j REDIRECT --to-port 4100
