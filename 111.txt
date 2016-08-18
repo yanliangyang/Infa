@@ -1,0 +1,49 @@
+http://repository.sonatype.org/content/groups/public/
+
+http://central.maven.org/maven2/
+
+
+OPEN-O_Release
+OPEN-O_SnapShots
+
+jenkins:172.27.20.26
+
+gerrit:172.27.20.27
+
+nexus:172.27.20.28
+
+sonarqube:172.27.20.30
+
+ssh hw_gerrit gerrit flush-caches --cache project_list
+
+	
+curl -sS https://mirror.tuna.tsinghua.edu.cn/help/gitlab-ce/script.deb.sh | sudo bash
+sudo apt-get install gitlab-ce
+
+5f19a21efa024e2bb8cd4893f886986d
+
+
+ec85fb86992a4702bcc7f5234f44cb29
+
+
+
+netstat  -apn | grep 8080
+
+
+jenkins: http://113.200.115.170:4093/
+
+nexus: http://113.200.115.170:4096/nexus/#view-repositories
+
+gerrit: http://113.200.115.170:4095/#/dashboard/self
+
+
+
+
+iptables -L -t nat
+
+iptables -A PREROUTING -t nat -i eth0 -p tcp --dport 29418 -j REDIRECT --to-port 4100
+
+0.7.7.201606060606
+
+
+/home/nexus/nexus-2.12.0-01/bin
